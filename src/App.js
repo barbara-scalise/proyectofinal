@@ -1,13 +1,13 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 //import "bulma/css/bulma.css";
-import ItemCount from "./components/ItemCount/ItemCount";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <BrowserRouter>
         <NavBar />
         <Routes>
